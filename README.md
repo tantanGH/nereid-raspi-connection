@@ -49,16 +49,19 @@
 
 * etherL12.sys
 
-[http://retropc.net/x68000/software/hardware/neptune_x/etherL12/](http://retropc.net/x68000/software/hardware/neptune_x/etherL12/)
-
 Nereid添付ディスク内のether_ne.sysと差し替えて使います。1.7倍高速とのことです。
+
+[http://retropc.net/x68000/software/hardware/neptune_x/etherL12/](http://retropc.net/x68000/software/hardware/neptune_x/etherL12/)
 
 * ftp.x (NetBSDからの移植版)
 
-[http://retropc.net/x68000/software/internet/ftp/ftp/](http://retropc.net/x68000/software/internet/ftp/ftp/)
-
 Nereid添付ディスク内のftp.xと差し替えて使います。Nereid添付ディスク内のftp.xではvsftpdとの通信が確立できません。
 
+[http://retropc.net/x68000/software/internet/ftp/ftp/](http://retropc.net/x68000/software/internet/ftp/ftp/)
+
+---
+
+## ソフトウェアの構成 (X680x0)
 
 ### CONFIG.SYS
 
