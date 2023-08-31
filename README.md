@@ -29,9 +29,9 @@
 それぞれに固定IPを割り振る。
 
 |Host|Hostname|IP|Subnet Mask|
--|-|-
-X68000XVI Nereid|xvi|192.168.68.99|255.255.255.0
-Raspberry Pi|raspi|192.168.68.100|255.255.255.0
+-|-|-|-
+|X68000XVI Nereid|xvi|192.168.68.99|255.255.255.0|
+|Raspberry Pi|raspi|192.168.68.100|255.255.255.0|
 
 ---
 
