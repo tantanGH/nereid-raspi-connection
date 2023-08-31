@@ -6,6 +6,13 @@
 
 最終的には FDX68 のファイル管理と制御をHuman68k側から行えるようにすることを目指しています。
 
+この覚書は以下の実機にて確認した結果ですが、内容の正確性を何ら保証するものではありません。
+
+* X68000XVI(16.7MHz) メモリ本体2MB + 内部増設6MB の合計8MB
+* Nereid + midiori 複合ボード
+* 市販のイーサネットクロスケーブル1m [https://www.amazon.co.jp/dp/B0037CSLRC](https://www.amazon.co.jp/dp/B0037CSLRC)
+* Raspberry Pi 3B+ (FDX68シールド付)
+
 ---
 
 ## ハードウェアの準備
@@ -14,13 +21,6 @@
 * Nereid (設計：X-PowerStation)
 * イーサネットクロスケーブル
 * Raspberry Pi 3B+ または 4B
-
-この覚書は以下にて確認した結果です。
-
-* X68000XVI(16.7MHz) 内蔵メモリ8MB
-* Nereid + midiori 複合ボード
-* 市販のイーサネットクロスケーブル1m [https://www.amazon.co.jp/dp/B0037CSLRC](https://www.amazon.co.jp/dp/B0037CSLRC)
-* Raspberry Pi 3B+ (FDX68シールド付)
 
 ---
 
