@@ -13,6 +13,8 @@
 * 市販のイーサネットクロスケーブル1m [https://www.amazon.co.jp/dp/B0037CSLRC](https://www.amazon.co.jp/dp/B0037CSLRC)
 * Raspberry Pi 3B+ (FDX68シールド付)
 
+<img src='images/net1.jpeg'/>
+
 ---
 
 ## ハードウェアの準備
@@ -66,12 +68,11 @@ Nereid添付ディスク内のftp.xと差し替えて使います。Nereid添付
 ### CONFIG.SYS
 
 Nereidの推奨設定に従うが、ether_ne.sys の代わりに etherL12.sys を使う。
-ここでは \USR\SYS\ に導入してある。
 
         FILES     = 50
         BUFFERS   = 99 4096
         LASTDRIVE = Z:
-        PROCESS   = 32 10 100
+        PROCESS   = 16 10 50
         DEVICE    = \USR\SYS\etherL12.sys
 
 ### AUTOEXEC.BAT
@@ -116,3 +117,40 @@ Nereidの推奨設定に従うが、ether_ne.sys の代わりに etherL12.sys �
 
         sudo apt-get install ftp
 
+---
+
+## ソフトウェアの構成 (Raspberry Pi)
+
+### /etc/dhcpcd.conf
+
+        # Example static IP configuration:
+        interface eth0
+        static ip_address=192.168.68.100/24
+
+### /etc/vsftpd.conf
+
+        listen=YES
+        listen_ipv6=NO
+        write_enable=YES
+
+---
+
+## 動作確認
+
+### Raspberry Pi -> X680x0 ping
+
+        ping 192.168.68.99
+
+### Raspberry Pi ftp loopback
+
+        ftp 192.168.68.100
+
+### X680x0 -> Raspberry Pi ping
+
+        ping 192.168.68.100
+
+### X680x0 -> Raspberry Pi ftp
+
+        ftp 192.168.68.100
+
+<img src='images/net2.jpeg' />
