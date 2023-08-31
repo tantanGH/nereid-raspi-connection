@@ -11,11 +11,11 @@
 * 市販のイーサネットクロスケーブル1m [https://www.amazon.co.jp/dp/B0037CSLRC](https://www.amazon.co.jp/dp/B0037CSLRC)
 * Raspberry Pi 3B+ (FDX68シールド付)
 
+最終的には FDX68 のファイル管理と制御をHuman68k側から行えるようにすることを目指しています。
+
 <img src='images/net1.jpeg'/>
 
 <img src='images/net3.jpeg'/>
-
-最終的には FDX68 のファイル管理と制御をHuman68k側から行えるようにすることを目指しています。
 
 ---
 
