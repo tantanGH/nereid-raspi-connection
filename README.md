@@ -155,4 +155,4 @@ Nereidの推奨設定に従うが、ether_ne.sys の代わりに etherL12.sys �
 
         ftp 192.168.68.100
 
-<img src='images/net2.jpeg' />
+<img src='images/net4.jpeg' />
