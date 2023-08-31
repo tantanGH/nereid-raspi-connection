@@ -13,6 +13,8 @@
 
 <img src='images/net1.jpeg'/>
 
+<img src='images/net3.jpeg'/>
+
 最終的には FDX68 のファイル管理と制御をHuman68k側から行えるようにすることを目指しています。
 
 ---
