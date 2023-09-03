@@ -80,7 +80,7 @@ Nereidの推奨設定に従うが、ether_ne.sys の代わりに etherL12.sys �
 ### AUTOEXEC.BAT
         xip -n2
         ifconfig lp0 up
-        ifconfig en0 192.168.68.100 netmask 255.255.255.0 up
+        ifconfig en0 192.168.68.99 netmask 255.255.255.0 up
         
 ### \usr\etc\hosts
         127.0.0.1       localhost   localhost
